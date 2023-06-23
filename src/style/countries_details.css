@@ -1,0 +1,26 @@
+.btn-back
+{
+    box-shadow: 0px 0px 5px #38383846 !important;
+    font-weight: 600;
+    transition: 0.3s;
+    outline: none;
+}
+
+.btn-border
+{
+    box-shadow: 0px 0px 5px #38383846 !important;
+    font-weight: 600;
+    outline: none;
+    transition: 0.3s;
+}
+
+.btndark:hover
+{
+    transform: scale(1.1);
+    color: #fff;
+}
+.btn:hover
+{
+    transform: scale(1.1);
+}
+

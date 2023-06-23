@@ -1,0 +1,31 @@
+.search form input
+{
+    outline: none;
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #34333342;
+}
+
+form
+{
+    position: relative;
+}
+
+.search form i
+{   
+    position: absolute;
+    top: 15px;
+    left: 226px;
+}
+
+@media screen and (max-width: 530px) {
+  .search form input {
+    width: 170px;
+  }
+  .search form i {
+    top: 15px;
+    left: 150px;
+  }
+}
